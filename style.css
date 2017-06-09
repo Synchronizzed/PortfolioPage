@@ -1,0 +1,36 @@
+body{
+	background-image: url("https://images6.alphacoders.com/337/337334.jpg");
+	background-color: aqua;
+}
+.button{
+	border-left: 6px solid aqua;
+	border-right: 6px solid aqua;
+   	background: rgba(0,0,0,.5);
+   	max-width: 300px;
+   	display:block;
+    margin:auto;
+    margin-bottom: 25px;
+    max-height: 120px;
+
+}
+#github{
+	display:block;
+    margin:auto;
+}
+#spigotmc{
+	display:block;
+    margin:auto
+}
+.button:hover{
+	background: rgba(0,0,0,.7);
+}
+@font-face{
+    font-family: 'title'; /*a name to be used later*/
+    src: url('chubdot.ttf'); /*URL to font*/
+}
+.title{
+	font-family: title;
+	font-size: 64px;
+	text-align: center;
+	
+}
